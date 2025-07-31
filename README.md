@@ -3,7 +3,7 @@
 ![new](https://github.com/user-attachments/assets/fe28cfaa-cb85-4e5f-b42b-41d7c4af0d4b)
 
 ## Table of Contents
-- [About the Project](#about-the-project)
+- [About the Project](https://github.com/husamuel/NodePipeline/edit/main/README.md#table-of-contents)
 - [Project Structure](#project-structure)
 - [CI/CD Architecture](#cicd-architecture)
   - [Continuous Integration (CI) Pipeline](#continuous-integration-ci-pipeline)
