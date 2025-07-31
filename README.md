@@ -1,6 +1,19 @@
 # NodePipeline
 
-<img width="1379" height="884" alt="new" src="https://github.com/user-attachments/assets/fe28cfaa-cb85-4e5f-b42b-41d7c4af0d4b" />
+![new](https://github.com/user-attachments/assets/fe28cfaa-cb85-4e5f-b42b-41d7c4af0d4b)
+
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Project Structure](#project-structure)
+- [CI/CD Architecture](#cicd-architecture)
+  - [Continuous Integration (CI) Pipeline](#continuous-integration-ci-pipeline)
+  - [Continuous Deployment (CD) Pipeline](#continuous-deployment-cd-pipeline)
+- [GitHub Actions Workflows](#github-actions-workflows)
+  - [CI Workflow](#ci-workflow)
+  - [CD Workflow](#cd-workflow)
+- [Why I Used Docker for This Project](#why-i-used-docker-for-this-project)
+- [Why I Set Up CI/CD with GitHub Actions](#why-i-set-up-cicd-with-github-actions)
+- [Final Thoughts](#final-thoughts)
 
 ## 📖 About the Project
 
@@ -59,7 +72,7 @@ The CD workflow runs exclusively on:
 
 ## 🛠️ GitHub Actions Workflows
 
-### CI Workflow (`.github/workflows/ci.yml`)
+### CI Workflow
 
 ```yaml
 name: CI
@@ -90,7 +103,7 @@ jobs:
     - run: npm run test:coverage
 ```
 
-### CD Workflow (`.github/workflows/cd.yml`)
+### CD Workflow
 
 ```yaml
 name: CD
